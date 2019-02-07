@@ -9,6 +9,3 @@ class BinaryChromosome < Chromosome
     c1 + c2
   end
 end
-
-ga = GeneticAlgorithm.new
-puts ga.run(BinaryChromosome, 0.2, 0.01, 100)

@@ -72,7 +72,6 @@ class GeneticAlgorithm
           puts "\t\t"+selection[1].value.join
         end
 
-        # przesuniecie bitowe?
         next_generation << selection[0] << selection[1]        
         if visualize
           puts "\tNEXT GENERATION"
